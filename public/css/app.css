@@ -11859,5 +11859,58 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.About {
+  background-color: #fffaf3;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  direction: none;
+  justify-content: none;
+  align-items: none;
+  gap: 10px;
+  padding-inline: 90px;
+}
+.About .imge-video {
+  position: relative;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+.About .imge-video img {
+  width: 100vh;
+  height: 60vh;
+  display: block;
+}
+.About .imge-video .button-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 32px;
+  width: 70px;
+  height: 60px;
+  display: flex;
+  direction: none;
+  justify-content: center;
+  align-items: center;
+  gap: none;
+  cursor: pointer;
+}
+.About .Voluptatem li {
+  list-style: none;
+}
+.About .Voluptatem svg {
+  color: orangered;
+}
+.About .Voluptatem h2, .About .Voluptatem .h2 {
+  font-size: 18px;
+  color: #433f43;
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 
 /*# sourceMappingURL=app.css.map */

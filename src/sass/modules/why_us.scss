@@ -1,0 +1,82 @@
+.Why-us {
+    @include mysize(100%, 70vh);
+ 
+
+    @include mydisplay(flex, none, center, center, 40px);
+    flex-direction: column;
+
+    .why-cards {
+        @include mydisplay(flex, none, none, none, 40px);
+
+        .card1 {
+            background-color: #cccac761;
+            @include mysize(none, 40vh);
+            padding-inline: 20px;
+
+            
+
+           
+
+            p { 
+                color: rgb(116, 116, 116);
+            }
+           
+        }
+        .card1:hover{
+            background-color: orange;
+             color: white;
+            h2, h3,p{
+                color: white;
+            }
+        }
+
+        .card2 {
+            background-color: #cccac761;
+            @include mysize(none, 40vh);
+            padding-inline: 20px;
+            .card2:hover{
+            background-color: orange;
+        }
+            p { 
+                color: rgb(116, 116, 116);
+            }
+        }
+         .card2:hover{
+            background-color: orange;
+             color: white;
+            h2, h3,p{
+                color: white;
+            }
+        }
+
+        .card3 {
+            background-color: #cccac761;
+            @include mysize(none, 40vh);
+            padding-inline: 20px;
+            
+
+            p { 
+                color: rgb(116, 116, 116);
+            }
+        }
+         .card3:hover{
+            background-color: orange;
+            color: white;
+            h2, h3,p{
+                color: white;
+            }
+        }
+    }
+button{
+     padding: 10px;
+
+    background-color: rgba(255, 166, 0, 0.616);
+    border-radius: 20px;
+    color: orange;
+    font-weight: bold;
+   
+}
+
+
+
+}

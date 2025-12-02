@@ -11913,4 +11913,80 @@ textarea.form-control-lg {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.Why-us {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  direction: none;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-direction: column;
+}
+.Why-us .why-cards {
+  display: flex;
+  direction: none;
+  justify-content: none;
+  align-items: none;
+  gap: 40px;
+}
+.Why-us .why-cards .card1 {
+  background-color: rgba(204, 202, 199, 0.3803921569);
+  width: none;
+  height: 40vh;
+  padding-inline: 20px;
+}
+.Why-us .why-cards .card1 p {
+  color: rgb(116, 116, 116);
+}
+.Why-us .why-cards .card1:hover {
+  background-color: orange;
+  color: white;
+}
+.Why-us .why-cards .card1:hover h2, .Why-us .why-cards .card1:hover .h2, .Why-us .why-cards .card1:hover h3, .Why-us .why-cards .card1:hover .h3, .Why-us .why-cards .card1:hover p {
+  color: white;
+}
+.Why-us .why-cards .card2 {
+  background-color: rgba(204, 202, 199, 0.3803921569);
+  width: none;
+  height: 40vh;
+  padding-inline: 20px;
+}
+.Why-us .why-cards .card2 .card2:hover {
+  background-color: orange;
+}
+.Why-us .why-cards .card2 p {
+  color: rgb(116, 116, 116);
+}
+.Why-us .why-cards .card2:hover {
+  background-color: orange;
+  color: white;
+}
+.Why-us .why-cards .card2:hover h2, .Why-us .why-cards .card2:hover .h2, .Why-us .why-cards .card2:hover h3, .Why-us .why-cards .card2:hover .h3, .Why-us .why-cards .card2:hover p {
+  color: white;
+}
+.Why-us .why-cards .card3 {
+  background-color: rgba(204, 202, 199, 0.3803921569);
+  width: none;
+  height: 40vh;
+  padding-inline: 20px;
+}
+.Why-us .why-cards .card3 p {
+  color: rgb(116, 116, 116);
+}
+.Why-us .why-cards .card3:hover {
+  background-color: orange;
+  color: white;
+}
+.Why-us .why-cards .card3:hover h2, .Why-us .why-cards .card3:hover .h2, .Why-us .why-cards .card3:hover h3, .Why-us .why-cards .card3:hover .h3, .Why-us .why-cards .card3:hover p {
+  color: white;
+}
+.Why-us button {
+  padding: 10px;
+  background-color: rgba(255, 166, 0, 0.616);
+  border-radius: 20px;
+  color: orange;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=app.css.map */

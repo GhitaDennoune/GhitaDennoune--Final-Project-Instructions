@@ -7,122 +7,307 @@
     <link rel="stylesheet" href="./public/css/app.css">
 
 
+
     <title>Document</title>
 </head>
 
 <body>
+
+    <section class="small-sextion">
+        <div class="info">
+            <p><i class="bi bi-phone"></i>+1 5589 55488 55
+            </p>
+            <p>
+                <i class="bi bi-clock"></i>
+                Mon-Sat: 11:00 AM - 23:00 PM
+            </p>
+
+
+        </div>
+        <div class="button1">
+            <button>Booka a table</button>
+
+        </div>
+
+
+    </section>
     <!--navbare -->
-    <nav>
-        
+    <section class="Navebar">
+        <!--logo-->
+
+        <h1>Delicious</h1>
+
+        <!--links -->
+        <div class="links ">
+            <a href="">Home</a>
+            <a href="#About2">About</a>
+            <a href="">Menu</a>
+            <a href="">Spéciale</a>
+            <a href="">Event</a>
+            <a href="">Chefs</a>
+            <a href="#galerie">Gallery</a>
 
 
-    </nav>
+            <a href="">contct</a>
+
+    </section>
+
+
     <!--sdection caroussel -->
     <section>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="./public/images/hero-carousel/hero-carousel-1.jpg" class="d-block w-100" alt="...">
+                    <div class="caro1">
+                        <h1> <span>Delicious</span> Restaurant</h1>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi
+                            ut
+                            aliquip ex ea commodo consequat.</p>
+                        <div class="button-carousel">
+                            <button>Our Menu </button>
+                            <button><span>Book</span> a table</button>
+                        </div>
+                    </div>
 
+
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./public/images/hero-carousel/hero-carousel-2.jpg" class="d-block w-100" alt="...">
+                    <div class="caro2">
+                        <h1>Temporibus autem quibusdam</h1>
+                        <p> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
+                            quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+                            Temporibus autem quibusdam et aut officiis debitis aut.</p>
+                        <div class="button-carousel">
+                            <button>Our Menu </button>
+                            <button><span>Book</span> a table</button>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="./public/images/hero-carousel/hero-carousel-3.jpg" class="d-block w-100" alt="...">
+
+                    <div class="caro3">
+                        <h1>Temporibus autem quibusdam</h1>
+                        <p> Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+                            aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                            nesciunt omnis iste natus error sit voluptatem accusantium.</p>
+                        <div class="button-carousel">
+                            <button>Our Menu </button>
+                            <button><span>Book</span> a table</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
 
     </section>
 
     <!--section About -->
-    <section class="About ">
+    <input type="checkbox" id="Video">
+    <label for="Video" class="voivide"></label>
+
+
+
+    <section class="About " id="About2">
         <div class="imge-video">
-            
+           <iframe src="https://www.youtube.com/embed/_n_UVPKC_AE?autoplay=1" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        id="vide"></iframe>
+
             <img src="./public/images/about.jpg" alt="">
-              <button class="button-video">►
-
-           
-
-
-              </button>
+             <label for="Video" class="voivide"><button class="button-video">► </button></label>
+            
         </div>
 
 
         <div class="Voluptatem">
             <h2>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h2>
-            <p class="italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            <p class="italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et
                 dolore magna aliqua.</p>
             <ul>
                 <li>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
-                            fill="currentColor">
-                            <path
-                                d="M11.602 13.7599L13.014 15.1719L21.4795 6.7063L22.8938 8.12051L13.014 18.0003L6.65 11.6363L8.06421 10.2221L10.189 12.3469L11.6025 13.7594L11.602 13.7599ZM11.6037 10.9322L16.5563 5.97949L17.9666 7.38977L13.014 12.3424L11.6037 10.9322ZM8.77698 16.5873L7.36396 18.0003L1 11.6363L2.41421 10.2221L3.82723 11.6352L3.82604 11.6363L8.77698 16.5873Z">
-                            </path>
-                        </svg> 
-                    
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                        fill="currentColor">
+                        <path
+                            d="M11.602 13.7599L13.014 15.1719L21.4795 6.7063L22.8938 8.12051L13.014 18.0003L6.65 11.6363L8.06421 10.2221L10.189 12.3469L11.6025 13.7594L11.602 13.7599ZM11.6037 10.9322L16.5563 5.97949L17.9666 7.38977L13.014 12.3424L11.6037 10.9322ZM8.77698 16.5873L7.36396 18.0003L1 11.6363L2.41421 10.2221L3.82723 11.6352L3.82604 11.6363L8.77698 16.5873Z">
+                        </path>
+                    </svg>
+
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </li>
                 <li>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
-                            fill="currentColor">
-                            <path
-                                d="M11.602 13.7599L13.014 15.1719L21.4795 6.7063L22.8938 8.12051L13.014 18.0003L6.65 11.6363L8.06421 10.2221L10.189 12.3469L11.6025 13.7594L11.602 13.7599ZM11.6037 10.9322L16.5563 5.97949L17.9666 7.38977L13.014 12.3424L11.6037 10.9322ZM8.77698 16.5873L7.36396 18.0003L1 11.6363L2.41421 10.2221L3.82723 11.6352L3.82604 11.6363L8.77698 16.5873Z">
-                            </path>
-                        </svg>
-                    
-                    Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                        fill="currentColor">
+                        <path
+                            d="M11.602 13.7599L13.014 15.1719L21.4795 6.7063L22.8938 8.12051L13.014 18.0003L6.65 11.6363L8.06421 10.2221L10.189 12.3469L11.6025 13.7594L11.602 13.7599ZM11.6037 10.9322L16.5563 5.97949L17.9666 7.38977L13.014 12.3424L11.6037 10.9322ZM8.77698 16.5873L7.36396 18.0003L1 11.6363L2.41421 10.2221L3.82723 11.6352L3.82604 11.6363L8.77698 16.5873Z">
+                        </path>
+                    </svg>
+
+                    Duis aute irure dolor in reprehenderit in voluptate velit.
+                </li>
                 <li>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
-                            fill="currentColor">
-                            <path
-                                d="M11.602 13.7599L13.014 15.1719L21.4795 6.7063L22.8938 8.12051L13.014 18.0003L6.65 11.6363L8.06421 10.2221L10.189 12.3469L11.6025 13.7594L11.602 13.7599ZM11.6037 10.9322L16.5563 5.97949L17.9666 7.38977L13.014 12.3424L11.6037 10.9322ZM8.77698 16.5873L7.36396 18.0003L1 11.6363L2.41421 10.2221L3.82723 11.6352L3.82604 11.6363L8.77698 16.5873Z">
-                            </path>
-                        </svg>
-                    
+                        fill="currentColor">
+                        <path
+                            d="M11.602 13.7599L13.014 15.1719L21.4795 6.7063L22.8938 8.12051L13.014 18.0003L6.65 11.6363L8.06421 10.2221L10.189 12.3469L11.6025 13.7594L11.602 13.7599ZM11.6037 10.9322L16.5563 5.97949L17.9666 7.38977L13.014 12.3424L11.6037 10.9322ZM8.77698 16.5873L7.36396 18.0003L1 11.6363L2.41421 10.2221L3.82723 11.6352L3.82604 11.6363L8.77698 16.5873Z">
+                        </path>
+                    </svg>
+
                     Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                    voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                </li>
             </ul>
             <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                 voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                 proident</p>
         </div>
     </section>
-<!--WHY US -->
-<section class="Why-us">
-<button >WHY US </button>
-<h2>Why choose Our Restaurant</h2>
-<div class="why-cards">
-<div class="card1" style="width: 26rem;">
-  <div class="card-body">
-    <h2 class="text-warning">01</h2>
-    <h3>lorem lpusm</h3>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quibusdam praesentium accusantium voluptas.</p>
+    <!--WHY US -->
+    <section class="Why-us">
+        <button>WHY US </button>
+        <h2>Why choose Our Restaurant</h2>
+        <div class="why-cards">
+            <div class="card1" style="width: 26rem;">
+                <div class="card-body">
+                    <h2 class="text-warning">01</h2>
+                    <h3>lorem lpusm</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quibusdam praesentium accusantium
+                        voluptas.</p>
+                </div>
+            </div>
+
+
+            <div class="card2" style="width: 26rem;">
+                <div class="card-body">
+                    <h2 class="text-warning">02</h2>
+                    <h3>Repelat Nehud</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quibusdam praesentium accusantium
+                        voluptas.</p>
+                </div>
+            </div>
+
+
+            <div class="card3" style="width: 26rem;">
+                <div class="card-body">
+                    <h2 class="text-warning">03</h2>
+                    <h3>Ad ad velit qui </h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quibusdam praesentium accusantium
+                        voluptas.</p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!--section Menu -->
+    <section class="menu">
+        <div class="cheek-our">
+            <button>Menu </button>
+            <h2>Check Our Tasty <span>Menu</span></h2>
+
+        </div>
+        <div class="menu-navigation">
+            <a href="">All</a>
+            <a href="">Starters</a>
+            <a href="">Salads</a>
+            <a href="">Specialty</a>
+
+        </div>
+        <!--div  menu  -->
+        <div class="food">
+            <div class="right">
+                <div class="Lobster">
+                    <a href="Lobster Bisque"></a>
+                    $5.95
+
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+                </div>
+                <div class="Crab "></div>
+                <div class="Tuscan"></div>
+                <div class="Greek "></div>
+                <div class="Lobster "></div>
+
+
+            </div>
+            <div class="left">
+                <button>Specials</button>
+                <h2>Check Ours <span>Specials</span> </h2>
+
+            </div>
+
+
+        </div>
+
+    </section>
+    <!--sdection specials-->
+    <section class="specials">
+
+
+
+
+
+
+
+    </section>
+    <!--section event-->
+    <!--section book a table-->
+    <!--gallery-->
+<section class="gallery" id="galerie">
+    <button>Gallery</button>
+    <h2>Some photos from  <span>Our Restaurant</span></h2>
+  <div class="images">
+    <div class="top">
+        <img src="./public/images/gallery/gallery-1.jpg" alt="" >
+        <img src="./public/images/gallery/gallery-2.jpg" alt="">
+        <img src="./public/images/gallery/gallery-3.jpg" alt="">
+        <img src="./public/images/gallery/gallery-4.jpg" alt="">
+    </div>
+    <div class="bottom">
+         <img src="./public/images/gallery/gallery-5.jpg" alt="">
+        <img src="./public/images/gallery/gallery-6.jpg" alt="">
+        <img src="./public/images/gallery/gallery-7.jpg" alt="">
+        <img src="./public/images/gallery/gallery-8.jpg" alt="">
+    </div>
   </div>
-</div>
-
-
-<div class="card2" style="width: 26rem;">
-  <div class="card-body">
-    <h2 class="text-warning">02</h2>
-    <h3>Repelat Nehud</h3>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quibusdam praesentium accusantium voluptas.</p>
-  </div>
-</div>
-
-
-<div class="card3" style="width: 26rem;">
-  <div class="card-body">
-    <h2 class="text-warning">03</h2>
-    <h3>Ad ad velit qui </h3>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quibusdam praesentium accusantium voluptas.</p>
-  </div>
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
 </section>
+
+    <!--Chefs-->
+    <!--info persone-->
+    <!--Contact-->
+
+    
+    <!--footer-->
+
+
 
 
 

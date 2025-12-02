@@ -1,0 +1,37 @@
+.gallery{
+    background-color: beige;
+      @include mydisplay(flex, column, center, center, 20px);
+       @include mysize(100%, 90vh);
+       button{
+          padding: 5px;
+        
+          width: 100px;
+
+        background-color: rgba(255, 166, 0, 0.616);
+        border-radius: 20px;
+        color: orange;
+        
+        
+       }
+       h2{
+        span{
+            color: $orange;
+        }
+       }
+       img{
+         @include mysize(350px, 250px);
+       }
+       .images .top{
+          @include mydisplay(flex, none, center, center, 6px);
+       }
+        .images .buttom{
+         @include mydisplay(flex, none, center, center, 8px);
+       }
+       .images{
+         @include mydisplay(flex, column, center, center, 7px);
+       }
+       img:hover{
+         transform: scale(1.1);
+       }
+
+}

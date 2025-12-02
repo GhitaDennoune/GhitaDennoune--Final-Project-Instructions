@@ -4,6 +4,7 @@
  * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import " ../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11861,10 +11862,11 @@ textarea.form-control-lg {
 }
 .About {
   background-color: #fffaf3;
+  padding-top: 70px;
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   display: flex;
-  direction: none;
+  flex-direction: none;
   justify-content: none;
   align-items: none;
   gap: 10px;
@@ -11886,7 +11888,7 @@ textarea.form-control-lg {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: orangered;
+  background-color: #fd7e14;
   color: white;
   border: none;
   border-radius: 50%;
@@ -11894,7 +11896,7 @@ textarea.form-control-lg {
   width: 70px;
   height: 60px;
   display: flex;
-  direction: none;
+  flex-direction: none;
   justify-content: center;
   align-items: center;
   gap: none;
@@ -11913,11 +11915,19 @@ textarea.form-control-lg {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+#Video:checked ~ .voivide {
+  display: block;
+}
+
+#Video:checked + .button-video {
+  top: 50;
+}
+
 .Why-us {
   width: 100%;
   height: 70vh;
   display: flex;
-  direction: none;
+  flex-direction: none;
   justify-content: center;
   align-items: center;
   gap: 40px;
@@ -11925,12 +11935,13 @@ textarea.form-control-lg {
 }
 .Why-us .why-cards {
   display: flex;
-  direction: none;
+  flex-direction: none;
   justify-content: none;
   align-items: none;
   gap: 40px;
 }
 .Why-us .why-cards .card1 {
+  padding-top: 50px;
   background-color: rgba(204, 202, 199, 0.3803921569);
   width: none;
   height: 40vh;
@@ -11940,33 +11951,60 @@ textarea.form-control-lg {
   color: rgb(116, 116, 116);
 }
 .Why-us .why-cards .card1:hover {
-  background-color: orange;
+  background-color: #fd7e14;
   color: white;
 }
-.Why-us .why-cards .card1:hover h2, .Why-us .why-cards .card1:hover .h2, .Why-us .why-cards .card1:hover h3, .Why-us .why-cards .card1:hover .h3, .Why-us .why-cards .card1:hover p {
+.Why-us .why-cards .card1:hover h2, .Why-us .why-cards .card1:hover .h2,
+.Why-us .why-cards .card1:hover h3,
+.Why-us .why-cards .card1:hover .h3,
+.Why-us .why-cards .card1:hover p {
   color: white;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInUp 0.2s ease-out forwards;
+}
+.Why-us .why-cards .card1:hover h2, .Why-us .why-cards .card1:hover .h2,
+.Why-us .why-cards .card1:hover h3,
+.Why-us .why-cards .card1:hover .h3,
+.Why-us .why-cards .card1:hover p {
+  animation-delay: 0.3s;
 }
 .Why-us .why-cards .card2 {
   background-color: rgba(204, 202, 199, 0.3803921569);
+  padding-top: 50px;
   width: none;
   height: 40vh;
   padding-inline: 20px;
 }
 .Why-us .why-cards .card2 .card2:hover {
-  background-color: orange;
+  background-color: #fd7e14;
 }
 .Why-us .why-cards .card2 p {
   color: rgb(116, 116, 116);
 }
 .Why-us .why-cards .card2:hover {
-  background-color: orange;
+  background-color: #fd7e14;
   color: white;
 }
-.Why-us .why-cards .card2:hover h2, .Why-us .why-cards .card2:hover .h2, .Why-us .why-cards .card2:hover h3, .Why-us .why-cards .card2:hover .h3, .Why-us .why-cards .card2:hover p {
+.Why-us .why-cards .card2:hover h2, .Why-us .why-cards .card2:hover .h2,
+.Why-us .why-cards .card2:hover h3,
+.Why-us .why-cards .card2:hover .h3,
+.Why-us .why-cards .card2:hover p {
   color: white;
+  color: white;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInUp 0.2s ease-out forwards;
+}
+.Why-us .why-cards .card2:hover h2, .Why-us .why-cards .card2:hover .h2,
+.Why-us .why-cards .card2:hover h3,
+.Why-us .why-cards .card2:hover .h3,
+.Why-us .why-cards .card2:hover p {
+  animation-delay: 0.3s;
 }
 .Why-us .why-cards .card3 {
   background-color: rgba(204, 202, 199, 0.3803921569);
+  padding-top: 50px;
   width: none;
   height: 40vh;
   padding-inline: 20px;
@@ -11975,11 +12013,24 @@ textarea.form-control-lg {
   color: rgb(116, 116, 116);
 }
 .Why-us .why-cards .card3:hover {
-  background-color: orange;
+  background-color: #fd7e14;
   color: white;
 }
-.Why-us .why-cards .card3:hover h2, .Why-us .why-cards .card3:hover .h2, .Why-us .why-cards .card3:hover h3, .Why-us .why-cards .card3:hover .h3, .Why-us .why-cards .card3:hover p {
+.Why-us .why-cards .card3:hover h2, .Why-us .why-cards .card3:hover .h2,
+.Why-us .why-cards .card3:hover h3,
+.Why-us .why-cards .card3:hover .h3,
+.Why-us .why-cards .card3:hover p {
   color: white;
+  color: white;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInUp 0.2s ease-out forwards;
+}
+.Why-us .why-cards .card3:hover h2, .Why-us .why-cards .card3:hover .h2,
+.Why-us .why-cards .card3:hover h3,
+.Why-us .why-cards .card3:hover .h3,
+.Why-us .why-cards .card3:hover p {
+  animation-delay: 0.3s;
 }
 .Why-us button {
   padding: 10px;
@@ -11987,6 +12038,297 @@ textarea.form-control-lg {
   border-radius: 20px;
   color: orange;
   font-weight: bold;
+}
+
+.Navebar {
+  width: 100%;
+  height: 12vh;
+  background-color: transparent;
+  display: flex;
+  flex-direction: none;
+  justify-content: none;
+  align-items: center;
+  gap: 80vh;
+  padding-inline: 80px;
+}
+.Navebar .links {
+  display: flex;
+  flex-direction: none;
+  justify-content: none;
+  align-items: center;
+  gap: 30px;
+}
+.Navebar .links a {
+  text-decoration: none;
+  color: white;
+}
+.Navebar .links a:hover {
+  color: #fd7e14;
+}
+.Navebar .links h1, .Navebar .links .h1 {
+  font-family: "Yellowtail", cursive;
+}
+
+.Navebar {
+  position: fixed;
+  z-index: 1000;
+  top: 5%;
+}
+
+.small-sextion {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 110vh;
+  padding-inline: 79px;
+}
+.small-sextion .info {
+  display: flex;
+  gap: 20px;
+}
+.small-sextion .info i {
+  color: #fd7e14;
+}
+.small-sextion .button1 button {
+  padding: 5px;
+  border: none;
+  background-color: #fd7e14;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.small-sextion {
+  position: fixed;
+  z-index: 1000;
+}
+
+.carousel-inner .carousel-item {
+  position: relative;
+}
+.carousel-inner img {
+  display: block;
+}
+.carousel-inner .caro1 h1 span, .carousel-inner .caro1 .h1 span {
+  color: #fd7e14;
+}
+.carousel-inner .caro1 p {
+  font-size: 14px;
+}
+.carousel-inner .caro1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.carousel-inner .caro1 .button-carousel {
+  display: flex;
+  flex-direction: none;
+  justify-content: none;
+  align-items: none;
+  gap: 18px;
+}
+.carousel-inner .caro1 .button-carousel button {
+  color: white;
+  background-color: transparent;
+  border-radius: 25px;
+  padding: 5px;
+  width: 120px;
+  border: solid #fd7e14 2px;
+}
+.carousel-inner .caro2 p {
+  font-size: 16px;
+}
+.carousel-inner .caro2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.carousel-inner .caro2 .button-carousel {
+  display: flex;
+  flex-direction: none;
+  justify-content: none;
+  align-items: none;
+  gap: 18px;
+}
+.carousel-inner .caro2 .button-carousel button {
+  color: white;
+  background-color: transparent;
+  border-radius: 25px;
+  padding: 5px;
+  width: 120px;
+  border: solid #fd7e14 2px;
+}
+.carousel-inner .caro3 p {
+  font-size: 15px;
+}
+.carousel-inner .caro3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.carousel-inner .caro3 .button-carousel {
+  display: flex;
+  flex-direction: none;
+  justify-content: none;
+  align-items: none;
+  gap: 18px;
+}
+.carousel-inner .caro3 .button-carousel button {
+  color: white;
+  background-color: transparent;
+  border-radius: 25px;
+  padding: 5px;
+  width: 120px;
+  border: solid #fd7e14 2px;
+}
+.carousel-inner .button-carousel button:hover {
+  background-color: #fd7e14;
+}
+.carousel-inner .caro1 h1, .carousel-inner .caro1 .h1,
+.carousel-inner .caro1 p,
+.carousel-inner .caro1 .button-carousel button {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+.carousel-inner .caro1 h1, .carousel-inner .caro1 .h1 {
+  animation-delay: 0s;
+}
+.carousel-inner .caro1 p {
+  animation-delay: 0.4s;
+}
+.carousel-inner .caro1 .button-carousel button:nth-child(1) {
+  animation-delay: 0.5s;
+}
+.carousel-inner .caro1 .button-carousel button:nth-child(2) {
+  animation-delay: 0.6s;
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.carousel-inner .caro2 h1, .carousel-inner .caro2 .h1,
+.carousel-inner .caro2 p,
+.carousel-inner .caro2 .button-carousel button {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+.carousel-inner .caro2 h1, .carousel-inner .caro2 .h1 {
+  animation-delay: 0s;
+}
+.carousel-inner .caro2 p {
+  animation-delay: 0.4s;
+}
+.carousel-inner .caro2 .button-carousel button:nth-child(1) {
+  animation-delay: 0.5s;
+}
+.carousel-inner .caro2 .button-carousel button:nth-child(2) {
+  animation-delay: 0.6s;
+}
+@keyframes carousel2 {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.carousel-inner .caro3 h1, .carousel-inner .caro3 .h1,
+.carousel-inner .caro3 p,
+.carousel-inner .caro3 .button-carousel button {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+.carousel-inner .caro3 h1, .carousel-inner .caro3 .h1 {
+  animation-delay: 0s;
+}
+.carousel-inner .caro3 p {
+  animation-delay: 0.4s;
+}
+.carousel-inner .caro3 .button-carousel button:nth-child(1) {
+  animation-delay: 0.5s;
+}
+.carousel-inner .caro3 .button-carousel button:nth-child(2) {
+  animation-delay: 0.6s;
+}
+@keyframes caros3 {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.gallery {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 90vh;
+}
+.gallery button {
+  padding: 5px;
+  width: 100px;
+  background-color: rgba(255, 166, 0, 0.616);
+  border-radius: 20px;
+  color: orange;
+}
+.gallery h2 span, .gallery .h2 span {
+  color: #fd7e14;
+}
+.gallery img {
+  width: 350px;
+  height: 250px;
+}
+.gallery .images .top {
+  display: flex;
+  flex-direction: none;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+.gallery .images .buttom {
+  display: flex;
+  flex-direction: none;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.gallery .images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.gallery img:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=app.css.map */

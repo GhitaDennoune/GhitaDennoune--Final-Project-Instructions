@@ -1,0 +1,207 @@
+.carousel-inner{
+    .carousel-item{
+        position: relative;
+
+    }
+    img{
+       display: block;
+    }
+   .caro1{
+    h1 {
+        span{
+            color: $orange;
+        }
+    }
+p{
+ 
+   font-size: 14px;
+}
+
+ @include mydisplay(flex, column, center, center, 30px);
+color: white;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ .button-carousel{
+ @include mydisplay(flex, none, none, none, 18px);
+
+ }
+
+
+ .button-carousel button{
+    color: white;
+    background-color: transparent;
+     border-radius: 25px;
+     padding: 5px;
+     width:  120px;
+       border: solid $orange 2px;
+  
+    
+ }
+ 
+    }
+
+
+    .caro2{
+
+p{
+ 
+   font-size: 16px;
+}
+
+ @include mydisplay(flex, column, center, center, 30px);
+color: white;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ .button-carousel{
+ @include mydisplay(flex, none, none, none, 18px);
+
+ }
+
+
+ .button-carousel button{
+    color: white;
+    background-color: transparent;
+     border-radius: 25px;
+     padding: 5px;
+     width:  120px;
+       border: solid $orange 2px;
+  
+    
+ }
+        
+    }
+    .caro3{
+
+    
+p{
+ 
+   font-size: 15px;
+}
+
+ @include mydisplay(flex, column, center, center, 30px);
+color: white;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ .button-carousel{
+ @include mydisplay(flex, none, none, none, 18px);
+
+ }
+
+
+ .button-carousel button{
+    color: white;
+    background-color: transparent;
+     border-radius: 25px;
+     padding: 5px;
+     width:  120px;
+  border: solid $orange 2px;
+    
+ }
+
+    }
+    .button-carousel button:hover{
+        background-color: $orange;
+    }
+
+.caro1 h1,
+.caro1 p,
+.caro1 .button-carousel button {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+.caro1 h1 {
+  animation-delay: 0s;
+}
+.caro1 p {
+  animation-delay: 0.4s;
+}
+
+.caro1 .button-carousel button:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.caro1 .button-carousel button:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }}
+
+
+  .caro2 h1,
+.caro2 p,
+.caro2 .button-carousel button {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+.caro2 h1 {
+  animation-delay: 0s;
+}
+.caro2 p {
+  animation-delay: 0.4s;
+}
+
+.caro2 .button-carousel button:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.caro2 .button-carousel button:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+
+@keyframes carousel2 {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }}
+
+
+
+.caro3 h1,
+.caro3 p,
+.caro3 .button-carousel button {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+.caro3 h1 {
+  animation-delay: 0s;
+}
+.caro3 p {
+  animation-delay: 0.4s;
+}
+
+.caro3 .button-carousel button:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.caro3 .button-carousel button:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+
+@keyframes caros3{
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }}
+
+
+ 
+}

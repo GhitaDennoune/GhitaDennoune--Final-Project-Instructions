@@ -1,6 +1,6 @@
 .Why-us {
     @include mysize(100%, 70vh);
- 
+
 
     @include mydisplay(flex, none, center, center, 40px);
     flex-direction: column;
@@ -9,73 +9,132 @@
         @include mydisplay(flex, none, none, none, 40px);
 
         .card1 {
+            padding-top: 50px;
             background-color: #cccac761;
             @include mysize(none, 40vh);
             padding-inline: 20px;
 
-            
 
-           
 
-            p { 
+
+
+
+            p {
                 color: rgb(116, 116, 116);
             }
-           
+
         }
-        .card1:hover{
-            background-color: orange;
-             color: white;
-            h2, h3,p{
+
+        .card1:hover {
+            background-color: $orange;
+            color: white;
+
+            h2,
+            h3,
+            p {
                 color: white;
+                opacity: 0;
+
+                transform: translateY(-20px);
+                animation: fadeInUp 0.2s ease-out forwards;
+
+
+
             }
+
+            h2,
+            h3,
+            p {
+                animation-delay: 0.3s;
+            }
+
+
         }
 
         .card2 {
             background-color: #cccac761;
+            padding-top: 50px;
             @include mysize(none, 40vh);
             padding-inline: 20px;
-            .card2:hover{
-            background-color: orange;
-        }
-            p { 
+
+            .card2:hover {
+                background-color: $orange;
+            }
+
+            p {
                 color: rgb(116, 116, 116);
             }
         }
-         .card2:hover{
-            background-color: orange;
-             color: white;
-            h2, h3,p{
+
+        .card2:hover {
+            background-color: $orange;
+
+            color: white;
+
+            h2,
+            h3,
+            p {
                 color: white;
+                color: white;
+                opacity: 0;
+
+                transform: translateY(-20px);
+                animation: fadeInUp 0.2s ease-out forwards;
+
+            }
+
+            h2,
+            h3,
+            p {
+                animation-delay: 0.3s;
             }
         }
 
         .card3 {
             background-color: #cccac761;
+            padding-top: 50px;
             @include mysize(none, 40vh);
             padding-inline: 20px;
-            
 
-            p { 
+
+            p {
                 color: rgb(116, 116, 116);
             }
         }
-         .card3:hover{
-            background-color: orange;
+
+        .card3:hover {
+            background-color: $orange;
             color: white;
-            h2, h3,p{
+
+            h2,
+            h3,
+            p {
                 color: white;
+                color: white;
+                opacity: 0;
+
+                transform: translateY(-20px);
+                animation: fadeInUp 0.2s ease-out forwards;
+
+            }
+
+            h2,
+            h3,
+            p {
+                animation-delay: 0.3s;
             }
         }
     }
-button{
-     padding: 10px;
 
-    background-color: rgba(255, 166, 0, 0.616);
-    border-radius: 20px;
-    color: orange;
-    font-weight: bold;
-   
-}
+    button {
+        padding: 10px;
+
+        background-color: rgba(255, 166, 0, 0.616);
+        border-radius: 20px;
+        color: orange;
+        font-weight: bold;
+
+    }
 
 
 

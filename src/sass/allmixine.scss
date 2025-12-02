@@ -1,6 +1,6 @@
 @mixin mydisplay($param1, $direction, $param2, $param3, $param4){
 display:$param1 ;
-direction: $direction;
+flex-direction: $direction;
 justify-content:$param2 ;
 align-items: $param3;
 gap: $param4;

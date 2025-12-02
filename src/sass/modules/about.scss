@@ -1,6 +1,7 @@
 .About{
     background-color: #fffaf3 ;
- @include mysize(100%, 70vh);
+    padding-top: 70px;
+ @include mysize(100%, 80vh);
 @include  mydisplay(flex, none, none,none,10px) ;
 padding-inline: 90px;
 .imge-video{
@@ -18,7 +19,7 @@ padding-inline: 90px;
         left: 50%;
       transform: translate(-50%,-50%);
 
-        background-color: orangered;
+        background-color: $orange;
         color: white;
         border: none;
         border-radius: 50%;
@@ -49,4 +50,11 @@ h2{
 
 
 }
+}
+
+#Video:checked ~ .voivide {
+display: block;
+}
+#Video:checked + .button-video {
+top: 50;
 }

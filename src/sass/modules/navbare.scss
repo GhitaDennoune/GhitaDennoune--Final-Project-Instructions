@@ -1,0 +1,30 @@
+.Navebar {
+
+                @include mysize(100%, 12vh);
+    background-color: transparent ;
+   @include mydisplay(flex, none, none, center, 80vh);
+   padding-inline: 80px;
+   .links{
+     @include mydisplay(flex, none, none, center, 30px);
+    a{
+     text-decoration: none;
+     color: white;
+
+    }
+  a:hover{
+    color: $orange;
+  }
+  h1{
+  font-family: 'Yellowtail', cursive;
+  }
+
+   }
+
+}
+.Navebar{
+    position: fixed;
+    z-index: 1000;
+    top: 5%;
+}
+
+

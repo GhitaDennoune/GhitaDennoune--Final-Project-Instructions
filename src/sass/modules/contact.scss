@@ -58,8 +58,7 @@
         height: 70vh;
 
         input {
-            width: 50vh;
-
+            @include mysize(350px, 6vh);
         }
 
         .name-email {

@@ -12674,7 +12674,8 @@ textarea.form-control-lg {
   height: 70vh;
 }
 .contact .big-part input {
-  width: 50vh;
+  width: 350px;
+  height: 6vh;
 }
 .contact .big-part .name-email {
   display: flex;

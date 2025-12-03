@@ -1,37 +1,40 @@
 .contact {
-        @include mysize(100%, 160vh);
-      
+    @include mysize(100%, 160vh);
+
     padding-top: 50px;
     display: flex;
     flex-direction: column;
     gap: 70px;
-   .conta{
-    display: flex;
-    flex-direction: column;
-  align-items: center;
-  .button4{
-     padding: 5px;
-width: 100px;
-height: 30px;
-text-align: center;
-        background-color: rgba(255, 166, 0, 0.616);
-        border-radius: 20px;
-        color: orange;
-        font-weight: bold;
-         display: flex;
+
+    .conta {
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
-  }
-  h2{
-    span{
-        color: $orange;
+
+        .button4 {
+            padding: 5px;
+            width: 100px;
+            height: 30px;
+            text-align: center;
+            background-color: rgba(255, 166, 0, 0.616);
+            border-radius: 20px;
+            color: orange;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h2 {
+            span {
+                color: $orange;
+            }
+        }
     }
-  }
-   }
 
     .les-informations {
         padding-inline: 90px;
-  
+
         @include mysize(100%, 60vh);
         display: flex;
         gap: 20px;
@@ -47,7 +50,7 @@ text-align: center;
                 color: $orange;
             }
         }
-        
+
     }
 
     .big-part {
@@ -89,5 +92,5 @@ text-align: center;
 
     }
 
-    
+
 }

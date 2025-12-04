@@ -12,7 +12,7 @@ ou vous allez voir un site web de restaurant construit a l aide de cet  Technolo
  # fonts utilisés:
 satisfay
 roboto
-poppin
+poppins
 #
 
 

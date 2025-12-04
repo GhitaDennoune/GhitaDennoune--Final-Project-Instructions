@@ -12091,7 +12091,7 @@ textarea.form-control-lg {
 .Navebar {
   width: 100%;
   height: 12vh;
-  background-color: transparent;
+  background-color: rgba(60, 59, 59, 0.199);
   display: flex;
   flex-direction: none;
   justify-content: none;
@@ -12138,8 +12138,8 @@ textarea.form-control-lg {
   src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
 }
 .small-sextion {
+  background-color: rgba(60, 59, 59, 0.199);
   width: 100%;
-  background-color: transparent;
   display: flex;
   align-items: center;
   gap: 110vh;
@@ -12223,19 +12223,16 @@ textarea.form-control-lg {
 .menu {
   width: 100%;
   height: 110vh;
-  background-color: pink;
   padding-inline: 85px;
 }
 .menu .food {
   display: flex;
 }
 .menu .food .right {
-  background-color: red;
   width: 50%;
 }
 .menu .food .list2 {
   width: 50%;
-  background-color: brown;
 }
 .menu .food img {
   width: 80px;
@@ -12244,7 +12241,6 @@ textarea.form-control-lg {
   border-radius: 50%;
 }
 .menu .food .right .Lobster {
-  background-color: aquamarine;
   position: relative;
   display: flex;
   align-items: flex-start;
@@ -12310,7 +12306,6 @@ textarea.form-control-lg {
   position: absolute;
 }
 .menu .food .Crab {
-  background-color: aquamarine;
   position: relative;
   display: flex;
   align-items: flex-start;
@@ -12326,7 +12321,6 @@ textarea.form-control-lg {
   position: absolute;
 }
 .menu .food .Tuscan {
-  background-color: aquamarine;
   position: relative;
   display: flex;
   align-items: flex-start;
@@ -12342,7 +12336,6 @@ textarea.form-control-lg {
   position: absolute;
 }
 .menu .food .Greek {
-  background-color: aquamarine;
   position: relative;
   display: flex;
   align-items: flex-start;
@@ -12358,7 +12351,6 @@ textarea.form-control-lg {
   position: absolute;
 }
 .menu .food .Lobster2 {
-  background-color: aquamarine;
   position: relative;
   display: flex;
   align-items: flex-start;
@@ -12374,7 +12366,6 @@ textarea.form-control-lg {
   position: absolute;
 }
 .menu .food .Bread {
-  background-color: palevioletred;
   position: relative;
   display: flex;
   align-items: flex-start;
@@ -12426,7 +12417,6 @@ textarea.form-control-lg {
   position: absolute;
 }
 .menu .food .Caesar {
-  background-color: palevioletred;
   position: relative;
   display: flex;
   align-items: flex-start;
@@ -12442,7 +12432,6 @@ textarea.form-control-lg {
   position: absolute;
 }
 .menu .food .Mozzarella {
-  background-color: palevioletred;
   position: relative;
   display: flex;
   align-items: flex-start;
@@ -12458,7 +12447,6 @@ textarea.form-control-lg {
   position: absolute;
 }
 .menu .food .Spinach {
-  background-color: palevioletred;
   position: relative;
   display: flex;
   align-items: flex-start;

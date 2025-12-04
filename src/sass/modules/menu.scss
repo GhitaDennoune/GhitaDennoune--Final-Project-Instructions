@@ -63,7 +63,7 @@
     }
 
     @include mysize(100%, 110vh);
-    background-color: pink;
+  
     padding-inline: 85px;
 
   
@@ -72,13 +72,13 @@
         display: flex;
 
         .right {
-            background-color: red;
+           
             width: 50%;
         }
 
         .list2 {
             width: 50%;
-            background-color: brown
+            
         }
 
         img {
@@ -88,7 +88,7 @@
         }
 
         .right .Lobster {
-            background-color: aquamarine;
+           
             position: relative;
             display: flex;
             align-items: flex-start;
@@ -166,7 +166,7 @@
         }
 
         .Crab {
-            background-color: aquamarine;
+           
             position: relative;
             display: flex;
             align-items: flex-start;
@@ -187,7 +187,7 @@
         }
 
         .Tuscan {
-            background-color: aquamarine;
+           
             position: relative;
             display: flex;
             align-items: flex-start;
@@ -208,7 +208,7 @@
         }
 
         .Greek {
-            background-color: aquamarine;
+          
             position: relative;
             display: flex;
             align-items: flex-start;
@@ -230,7 +230,7 @@
 
 
         .Lobster2 {
-            background-color: aquamarine;
+          
             position: relative;
             display: flex;
             align-items: flex-start;
@@ -251,7 +251,7 @@
         }
 
         .Bread {
-            background-color: palevioletred;
+           
             position: relative;
             display: flex;
             align-items: flex-start;
@@ -320,7 +320,7 @@
         }
 
         .Caesar {
-            background-color: palevioletred;
+          
             position: relative;
             display: flex;
             align-items: flex-start;
@@ -341,7 +341,7 @@
         }
 
         .Mozzarella {
-            background-color: palevioletred;
+          
             position: relative;
             display: flex;
             align-items: flex-start;
@@ -362,7 +362,7 @@
         }
 
         .Spinach {
-            background-color: palevioletred;
+         
             position: relative;
             display: flex;
             align-items: flex-start;

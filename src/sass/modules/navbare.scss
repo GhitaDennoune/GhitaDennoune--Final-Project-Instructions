@@ -16,7 +16,7 @@
 .Navebar {
 
                 @include mysize(100%, 12vh);
-    background-color: transparent ;
+    background-color: rgba(60, 59, 59, 0.199) ;
    @include mydisplay(flex, none, none, center, 80vh);
    padding-inline: 80px;
    .links{

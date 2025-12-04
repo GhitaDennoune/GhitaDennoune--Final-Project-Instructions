@@ -23,6 +23,9 @@
 
 
 .Why-us {
+    h2{
+        font-family: "Satisfy", cursive;
+    }
     @include mysize(100%, 70vh);
 
 
@@ -45,6 +48,9 @@
 
             p {
                 color: rgb(116, 116, 116);
+            }
+            h3{
+                font-family: "Satisfy", cursive;
             }
 
         }
@@ -71,6 +77,7 @@
             p {
                 animation-delay: 0.3s;
             }
+        
 
 
         }
@@ -87,6 +94,9 @@
 
             p {
                 color: rgb(116, 116, 116);
+            }
+            h3{
+                font-family: "Satisfy", cursive;
             }
         }
 
@@ -123,6 +133,9 @@
 
             p {
                 color: rgb(116, 116, 116);
+            }
+            h3{
+                font-family: "Satisfy", cursive;
             }
         }
 

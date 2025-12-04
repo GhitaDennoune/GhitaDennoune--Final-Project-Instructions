@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 
 
 
@@ -41,10 +44,10 @@
         <div class="links ">
             <a href="">Home</a>
             <a href="#About2">About</a>
-            <a href="">Menu</a>
-            <a href="">Spéciale</a>
-            <a href="">Event</a>
-            <a href="">Chefs</a>
+            <a href="#menu-nav">Menu</a>
+            <a href="#speciale-nav">Spéciale</a>
+            <a href="#event-nav">Event</a>
+            <a href="#chefs-nav">Chefs</a>
             <a href="#galerie">Gallery</a>
 
 
@@ -229,7 +232,7 @@
         </div>
     </section>
     <!--section Menu -->
-    <section class="menu">
+    <section class="menu" id="menu-nav">
         <div class="cheek-our">
             <button>Menu </button>
             <h2>Check Our Tasty <span>Menu</span></h2>
@@ -402,7 +405,7 @@
 
     </section>
     <!--sdection specials-->
-    <section class="specials">
+    <section class="specials" id="speciale-nav">
 
         <div class="speciales-top"><button>Speciales</button>
             <h3>Check Our <span>Specials</span></h3>
@@ -432,7 +435,6 @@
 
 
 
-
             </div>
         </div>
 
@@ -445,12 +447,12 @@
 
     </section>
     <!--section event-->
-    <section class="events">
+    <section class="events" id="event-nav">
 
 
 
 
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide ">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -706,28 +708,34 @@
     </section>
 
     <!--Chefs-->
-    <section class="chefs  d-flex gap-3 p-5 ">
+    <section class="chefs  d-flex gap-3 p-5 " id="chefs-nav">
+<div >
+    <h2>
+Our Professional Chefs
 
+</h2>
+</div>
         <div class="chef1  ">
             <img src="./public/images/chefs/chefs-1.jpg" alt="" class="card-img-top">
             <div class="chef-info  p-5 bg-secondary-subtle w-25%">
 
                 <h4>Walter White</h4>
                 <hr>
-                <div class=" d-flex   justify-content-between "><p>Master Chef</p>
-                 <div >
-                    <i class="bi bi-instagram"></i>
-                    <i class="bi bi-threads"></i>
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-messenger"></i>
+                <div class=" d-flex   justify-content-between ">
+                    <p>Master Chef</p>
+                    <div>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-threads"></i>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-messenger"></i>
+                    </div>
                 </div>
-                </div>
-                
+
             </div>
         </div>
-        <div class="chef2  class=" d-flex   justify-content-between ">
+        <div class="chef2  class=" d-flex justify-content-between ">
 
-            <img src="./public/images/chefs/chefs-2.jpg" alt="" class="card-img-top" ">
+            <img src=" ./public/images/chefs/chefs-2.jpg" alt="" class="card-img-top" ">
 <div class=" chef2-info p-5 bg-secondary-subtle w-25%">
             <h4>Sarah Jhonson</h4>
             <hr>

@@ -11924,7 +11924,7 @@ textarea.form-control-lg {
   font-size: 18px;
   color: #433f43;
   font-weight: 700;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Satisfy", cursive;
 }
 
 #Video:checked ~ .voivide {
@@ -11946,6 +11946,9 @@ textarea.form-control-lg {
 @font-face {
   font-family: "poping-font";
   src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
+}
+.Why-us h2, .Why-us .h2 {
+  font-family: "Satisfy", cursive;
 }
 .Why-us {
   width: 100%;
@@ -11973,6 +11976,9 @@ textarea.form-control-lg {
 }
 .Why-us .why-cards .card1 p {
   color: rgb(116, 116, 116);
+}
+.Why-us .why-cards .card1 h3, .Why-us .why-cards .card1 .h3 {
+  font-family: "Satisfy", cursive;
 }
 .Why-us .why-cards .card1:hover {
   background-color: #fd7e14;
@@ -12006,6 +12012,9 @@ textarea.form-control-lg {
 .Why-us .why-cards .card2 p {
   color: rgb(116, 116, 116);
 }
+.Why-us .why-cards .card2 h3, .Why-us .why-cards .card2 .h3 {
+  font-family: "Satisfy", cursive;
+}
 .Why-us .why-cards .card2:hover {
   background-color: #fd7e14;
   color: white;
@@ -12035,6 +12044,9 @@ textarea.form-control-lg {
 }
 .Why-us .why-cards .card3 p {
   color: rgb(116, 116, 116);
+}
+.Why-us .why-cards .card3 h3, .Why-us .why-cards .card3 .h3 {
+  font-family: "Satisfy", cursive;
 }
 .Why-us .why-cards .card3:hover {
   background-color: #fd7e14;
@@ -12102,7 +12114,9 @@ textarea.form-control-lg {
   color: #fd7e14;
 }
 .Navebar .links h1, .Navebar .links .h1 {
-  font-family: "Yellowtail", cursive;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .Navebar {
@@ -12183,6 +12197,9 @@ textarea.form-control-lg {
 .menu .cheek-our h2 span, .menu .cheek-our .h2 span {
   color: #fd7e14;
 }
+.menu .cheek-our h2, .menu .cheek-our .h2 {
+  font-family: "Satisfy", cursive;
+}
 .menu .cheek-our {
   display: flex;
   flex-direction: column;
@@ -12201,6 +12218,7 @@ textarea.form-control-lg {
 .menu .menu-navigation a {
   text-decoration: none;
   color: white;
+  font-family: "Satisfy", cursive;
 }
 .menu {
   width: 100%;
@@ -12474,6 +12492,9 @@ textarea.form-control-lg {
 .carousel-inner img {
   display: block;
 }
+.carousel-inner .caro1 h1, .carousel-inner .caro1 .h1 {
+  font-family: "Satisfy", cursive;
+}
 .carousel-inner .caro1 h1 span, .carousel-inner .caro1 .h1 span {
   color: #fd7e14;
 }
@@ -12675,6 +12696,9 @@ textarea.form-control-lg {
   border-radius: 20px;
   color: orange;
 }
+.gallery h2, .gallery .h2 {
+  font-family: "Satisfy", cursive;
+}
 .gallery h2 span, .gallery .h2 span {
   color: #fd7e14;
 }
@@ -12744,6 +12768,9 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.contact .conta h2, .contact .conta .h2 {
+  font-family: "Satisfy", cursive;
 }
 .contact .conta h2 span, .contact .conta .h2 span {
   color: #fd7e14;
@@ -12877,6 +12904,9 @@ textarea.form-control-lg {
   align-items: center;
   padding-top: 30px;
 }
+.book-table .book2 h2, .book-table .book2 .h2 {
+  font-family: "Satisfy", cursive;
+}
 .book-table .book2 button {
   padding: 5px;
   width: 130px;
@@ -12945,6 +12975,9 @@ textarea.form-control-lg {
   flex-direction: column;
   align-items: flex-start;
 }
+.events .event1 .event-explain h3, .events .event1 .event-explain .h3 {
+  font-family: "Satisfy", cursive;
+}
 .events .event1 {
   display: flex;
 }
@@ -13007,6 +13040,9 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: center;
 }
+.specials .speciales-top h3, .specials .speciales-top .h3 {
+  font-family: "Satisfy", cursive;
+}
 .specials .speciales-top h3 span, .specials .speciales-top .h3 span {
   color: #fd7e14;
 }
@@ -13022,6 +13058,9 @@ textarea.form-control-lg {
 .specials .speciales-inscreptions .description {
   width: 70%;
   display: flex;
+}
+.specials .speciales-inscreptions .description h4, .specials .speciales-inscreptions .description .h4 {
+  font-family: "Satisfy", cursive;
 }
 
 @font-face {
@@ -13041,19 +13080,6 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-size: 100%;
   height: 80vh;
-}
-
-@font-face {
-  font-family: "myfont";
-  src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
-}
-@font-face {
-  font-family: "paragraph-font";
-  src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
-}
-@font-face {
-  font-family: "poping-font";
-  src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
 }
 
 /*# sourceMappingURL=app.css.map */

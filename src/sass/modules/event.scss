@@ -1,3 +1,20 @@
+@font-face {
+    font-family: "myfont";
+    src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+
+@font-face {
+    font-family: "paragraph-font";
+    src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: "poping-font";
+    src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
+}
+
+
+
+
 .events{
 background-image: url(../../../public/images/events-bg.jpg);
 background-repeat: no-repeat;

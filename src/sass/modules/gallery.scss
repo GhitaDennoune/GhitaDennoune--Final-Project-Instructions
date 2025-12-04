@@ -1,3 +1,23 @@
+@font-face {
+    font-family: "myfont";
+    src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+
+@font-face {
+    font-family: "paragraph-font";
+    src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: "poping-font";
+    src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
+}
+
+
+
+
+
+
+
 .gallery{
     background-color: beige;
       @include mydisplay(flex, column, center, center, 20px);

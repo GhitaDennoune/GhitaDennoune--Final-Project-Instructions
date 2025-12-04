@@ -1,4 +1,24 @@
-.book-table {
+ 
+ @font-face {
+    font-family: "myfont";
+    src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+
+@font-face {
+    font-family: "paragraph-font";
+    src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: "poping-font";
+    src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ .book-table {
     @include mysize(100%, 110vh);
    
     display: flex;

@@ -11860,6 +11860,18 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@font-face {
+  font-family: "myfont";
+  src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+  font-family: "paragraph-font";
+  src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "poping-font";
+  src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
+}
 .About {
   background-color: #fffaf3;
   padding-top: 70px;
@@ -11923,6 +11935,18 @@ textarea.form-control-lg {
   top: 50;
 }
 
+@font-face {
+  font-family: "myfont";
+  src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+  font-family: "paragraph-font";
+  src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "poping-font";
+  src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
+}
 .Why-us {
   width: 100%;
   height: 70vh;
@@ -12040,6 +12064,18 @@ textarea.form-control-lg {
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "myfont";
+  src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+  font-family: "paragraph-font";
+  src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "poping-font";
+  src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
+}
 .Navebar {
   width: 100%;
   height: 12vh;
@@ -12075,6 +12111,18 @@ textarea.form-control-lg {
   top: 5%;
 }
 
+@font-face {
+  font-family: "myfont";
+  src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+  font-family: "paragraph-font";
+  src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "poping-font";
+  src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
+}
 .small-sextion {
   width: 100%;
   background-color: transparent;
@@ -12104,6 +12152,18 @@ textarea.form-control-lg {
   z-index: 1000;
 }
 
+@font-face {
+  font-family: "myfont";
+  src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+  font-family: "paragraph-font";
+  src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "poping-font";
+  src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
+}
 .menu {
   padding-top: 50px;
 }
@@ -12396,6 +12456,18 @@ textarea.form-control-lg {
   position: absolute;
 }
 
+@font-face {
+  font-family: "myfont";
+  src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+  font-family: "paragraph-font";
+  src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "poping-font";
+  src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
+}
 .carousel-inner .carousel-item {
   position: relative;
 }
@@ -12574,6 +12646,18 @@ textarea.form-control-lg {
   }
 }
 
+@font-face {
+  font-family: "myfont";
+  src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+  font-family: "paragraph-font";
+  src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "poping-font";
+  src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
+}
 .gallery {
   background-color: beige;
   display: flex;
@@ -12623,6 +12707,18 @@ textarea.form-control-lg {
   transform: scale(1.1);
 }
 
+@font-face {
+  font-family: "myfont";
+  src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+  font-family: "paragraph-font";
+  src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "poping-font";
+  src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
+}
 .contact {
   width: 100%;
   height: 160vh;
@@ -12698,6 +12794,18 @@ textarea.form-control-lg {
   height: 50px;
 }
 
+@font-face {
+  font-family: "myfont";
+  src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+  font-family: "paragraph-font";
+  src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "poping-font";
+  src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
+}
 .footer {
   color: white;
   width: 100%;
@@ -12742,6 +12850,18 @@ textarea.form-control-lg {
   color: #fd7e14;
 }
 
+@font-face {
+  font-family: "myfont";
+  src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+  font-family: "paragraph-font";
+  src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "poping-font";
+  src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
+}
 .book-table {
   width: 100%;
   height: 110vh;
@@ -12797,6 +12917,18 @@ textarea.form-control-lg {
   justify-content: center;
 }
 
+@font-face {
+  font-family: "myfont";
+  src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+  font-family: "paragraph-font";
+  src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "poping-font";
+  src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
+}
 .events {
   background-image: url(../../../public/images/events-bg.jpg);
   background-repeat: no-repeat;
@@ -12834,6 +12966,18 @@ textarea.form-control-lg {
   align-items: flex-start;
 }
 
+@font-face {
+  font-family: "myfont";
+  src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+  font-family: "paragraph-font";
+  src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "poping-font";
+  src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
+}
 .specials {
   width: 100%;
   height: 70vh;
@@ -12880,11 +13024,36 @@ textarea.form-control-lg {
   display: flex;
 }
 
+@font-face {
+  font-family: "myfont";
+  src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+  font-family: "paragraph-font";
+  src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "poping-font";
+  src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
+}
 .people {
   background-image: url(../../../public/images/testimonials-bg.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   height: 80vh;
+}
+
+@font-face {
+  font-family: "myfont";
+  src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+  font-family: "paragraph-font";
+  src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "poping-font";
+  src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
 }
 
 /*# sourceMappingURL=app.css.map */

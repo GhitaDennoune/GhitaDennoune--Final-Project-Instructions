@@ -37,14 +37,23 @@
     <!--navbare -->
     <section class="Navebar ">
         <!--logo-->
+       
+
 
         <h1>Delicious</h1>
+ <label class="menu-icon" for="menu-chek">
+    <i class="bi bi-list"></i>
+</label>
+<input type="checkbox" id="menu-chek" />
 
         <!--links -->
         <div class="links ">
+            <label for="menu-chek" class="menu-close">
+            <i class="bi bi-x-lg"></i>
+        </label>
             <a href="">Home</a>
             <a href="#About2">About</a>
-            <a href="#menu-nav">Menu</a>
+            <a href="#menu">Menu</a>
             <a href="#speciale-nav">Spéciale</a>
             <a href="#event-nav">Event</a>
             <a href="#chefs-nav">Chefs</a>
@@ -57,7 +66,7 @@
 
 
     <!--sdection caroussel -->
-    <section>
+    <section >
         <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -134,24 +143,41 @@
     </section>
 
     <!--section About -->
-    <!-- <input type="checkbox" id="Video">
-    <label for="Video" class="voivide"></label> -->
+  
 
 
 
     <section class="About " id="About2">
-        <!--<div class="imge-video">
-            <iframe src="https://www.youtube.com/embed/_n_UVPKC_AE?autoplay=1" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                id="vide"></iframe><iframe src="https://www.youtube.com/embed/_n_UVPKC_AE?autoplay=1" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                id="vide"></iframe>-->
+     
+        
         <div class="imge-video">
 
 
             <img src="./public/images/about.jpg" alt="">
-            <label for="Video" class="voivide"><button class="button-video">► </button></label>
 
+   <button class="btn  " data-bs-target="#m" data-bs-toggle="modal">►</button>
+        <div id="m" class="modal">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="ratio ratio-16x9 w-100">
+                                                        <iframe class="w-100 h-100"
+                                                            src="https://www.youtube.com/embed/Y7f98aduVJ8?autoplay=1&mute=1&controls=1"
+                                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                            allowfullscreen>
+                                                        </iframe>
+                                                    </div>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+        </div>
         </div>
 
 
@@ -235,24 +261,146 @@
 
         </div>
     </section>
+
+
+     <section id="menu" class="menu section-bg">
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>MENU</h2><br><br>
+                <p>Check Our Tasty <span>Menu</span></p>
+            </div>
+
+            <!-- Radio Filters -->
+            <input type="radio" name="menu-filter" id="filter-all" checked>
+            <input type="radio" name="menu-filter" id="filter-starters">
+            <input type="radio" name="menu-filter" id="filter-salads">
+            <input type="radio" name="menu-filter" id="filter-specialty">
+
+            <ul class="menu-filters">
+                <label for="filter-all" class="filter">All</label>
+                <label for="filter-starters" class="filter">Starters</label>
+                <label for="filter-salads" class="filter">Salads</label>
+                <label for="filter-specialty" class="filter">Specialty</label>
+            </ul>
+
+            <!-- Menu Grid -->
+            <div class="menu-items">
+
+                <!-- Starters -->
+                <div class="menu-item starters">
+                    <img src="/Public/images/menu/lobster-bisque.jpg" alt="">
+                    <div class="item-info">
+                        <h4>Lobster Bisque<span><span
+                                    class="point">..........................................................</span></span><span
+                                class="price">$5.95</span></h4>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+
+                <div class="menu-item starters">
+                    <img src="/Public/images/menu/mozzarella.jpg" alt="">
+                    <div class="item-info">
+                        <h4>Mozzarella Stick<span
+                                class="point">..........................................................</span><span
+                                class="price">$4.95</span></h4>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+
+                <div class="menu-item starters">
+                    <img src="/Public/images/menu/cake.jpg" alt="">
+                    <div class="item-info">
+                        <h4>Crab Cake<span
+                                class="point">..................................................................</span><span
+                                class="price">$7.95</span></h4>
+                        <p>A delicate crab cake served on a toasted roll with lettuce and tartar sauce</p>
+                    </div>
+                </div>
+
+                <!-- Salads -->
+                <div class="menu-item salads">
+                    <img src="/Public/images/menu/caesar.jpg" alt="">
+                    <div class="item-info">
+                        <h4>Caesar Selections<span
+                                class="point">.......................................................</span><span
+                                class="price">$8.95</span></h4>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+
+                <div class="menu-item salads">
+                    <img src="/Public/images/menu/greek-salad.jpg" alt="">
+                    <div class="item-info">
+                        <h4>Greek Salad<span
+                                class="point">.................................................................</span><span
+                                class="price">$9.95</span></h4>
+                        <p>Fresh spinach, crisp romaine, tomatoes, and Greek olives</p>
+                    </div>
+                </div>
+
+                <div class="menu-item salads">
+                    <img src="/Public/images/menu/spinach-salad.jpg" alt="">
+                    <div class="item-info">
+                        <h4>Spinach Salad<span
+                                class="point">............................................................</span><span
+                                class="price">$9.95</span></h4>
+                        <p>Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette</p>
+                    </div>
+                </div>
+
+                <!-- Speciality -->
+                <div class="menu-item specialty">
+                    <img src="./Public/images/menu/bread-barrel.jpg" alt="">
+                    <div class="item-info">
+                        <h4>Bread Barrel<span
+                                class="point">.................................................................</span><span
+                                class="price">$6.95</span></h4>
+                        <p>Juicy grilled beef steak with herbs.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item specialty">
+                    <img src="/Public/images/menu/tuscan-grilled.jpg" alt="">
+                    <div class="item-info">
+                        <h4>Tuscan Grilled<span
+                                class="point">...........................................................</span><span
+                                class="price">$9.95</span></h4>
+                        <p>Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
+                    </div>
+                </div>
+
+                <div class="menu-item specialty">
+                    <img src="./Public/images/menu/lobster-roll.jpg" alt="">
+                    <div class="item-info">
+                        <h4>Lobster Roll<span
+                                class="point">................................................................</span><span
+                                class="price">$12.95</span></h4>
+                        <p>Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
     <!--section Menu -->
-    <section class="menu" id="menu-nav">
-        <div class="cheek-our">
+    <!-- <section class="menu" id="menu-nav">
+        
+        <!-- <div class="cheek-our">
             <button>Menu </button>
             <h2>Check Our Tasty <span>Menu</span></h2>
 
         </div>
         <div class="menu-navigation">
-            <a href="">All</a>
-            <a href="">Starters</a>
-            <a href="">Salads</a>
-            <a href="">Specialty</a>
+       
 
-        </div>
+        </div> -->
         <!--div  menu  -->
-        <div class="food">
+        
+        <!-- <div class="food">
             <div class="right">
-                <div class="Lobster">
+                <div class="Lobster"  id="content-all">
 
                     <img src="./public/images/menu/lobster-bisque.jpg" alt="">
 
@@ -266,7 +414,7 @@
                     </div>
 
                 </div>
-                <div class="Crab ">
+                <div class="Crab " id="content-salades">
 
                     <img src="./public/images/menu/cake.jpg" alt="">
                     <div class="info">
@@ -279,7 +427,7 @@
                     </div>
 
                 </div>
-                <div class="Tuscan">
+                <div class="Tuscan"  id="content-starters">
 
                     <img src="./public/images/menu/tuscan-grilled.jpg" alt="">
                     <div class="info">
@@ -296,7 +444,7 @@
 
 
                 </div>
-                <div class="Greek ">
+                <div class="Greek " id="content-specialt">
                     <img src="./public/images/menu/greek-salad.jpg" alt="">
                     <div class="info">
                         <div class="after4">
@@ -404,10 +552,10 @@
 
 
             </div>
-        </div>
+        </div> -->
 
 
-    </section>
+    </section> 
     <!--sdection specials-->
     <section class="specials" id="speciale-nav">
 
@@ -783,7 +931,113 @@
 
 
     <!--info persone-->
-    <section class="people">
+       <section class="testimonial">
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators pb-10">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="carousel-caption testimonials-text testimonials-img pb-10">
+        <div>
+          <img src="./public/images/testimonials/testimonials-1.jpg" class="" alt="...">
+            <h5>Saul Goodman</h5>
+            <p>Ceo &amp; Founder</p>
+        </div>
+        <div>
+          <p>⭐⭐⭐⭐⭐</p>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, at? Perspiciatis perferendis quos optio! Excepturi a ex cupiditate hic nesciunt dolorum velit adipisci quas ipsum.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="">
+      </div>
+      <div class="carousel-caption testimonials-text testimonials-img pb-10">
+        <div>
+          <img src="./public/images/testimonials/testimonials-2.jpg" class="" alt="...">
+            <h5>Saul Goodman</h5>
+            <p>Ceo &amp; Founder</p>
+        </div>
+        <div>
+          <p>⭐⭐⭐⭐⭐</p>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, at? Perspiciatis perferendis quos optio! Excepturi a ex cupiditate hic nesciunt dolorum velit adipisci quas ipsum.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="">
+      </div>
+      <div class="carousel-caption testimonials-text testimonials-img pb-10">
+        <div>
+          <img src="./public/images/testimonials/testimonials-3.jpg" class="" alt="...">
+            <h5>Saul Goodman</h5>
+            <p>Ceo &amp; Founder</p>
+        </div>
+        <div>
+          <p>⭐⭐⭐⭐⭐</p>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, at? Perspiciatis perferendis quos optio! Excepturi a ex cupiditate hic nesciunt dolorum velit adipisci quas ipsum.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="">
+      </div>
+      <div class="carousel-caption testimonials-text testimonials-img pb-10">
+        <div>
+          <img src="./public/images/testimonials/testimonials-4.jpg" class="" alt="...">
+            <h5>Saul Goodman</h5>
+            <p>Ceo &amp; Founder</p>
+        </div>
+        <div>
+          <p>⭐⭐⭐⭐⭐</p>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, at? Perspiciatis perferendis quos optio! Excepturi a ex cupiditate hic nesciunt dolorum velit adipisci quas ipsum.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="">
+      </div>
+      <div class="carousel-caption testimonials-text testimonials-img pb-10">
+        <div>
+          <img src="./public/images/testimonials/testimonials-5.jpg" class="" alt="...">
+            <h5>Saul Goodman</h5>
+            <p>Ceo &amp; Founder</p>
+        </div>
+        <div>
+          <p>⭐⭐⭐⭐⭐</p>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, at? Perspiciatis perferendis quos optio! Excepturi a ex cupiditate hic nesciunt dolorum velit adipisci quas ipsum.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
     </section>

@@ -109,3 +109,61 @@
 
 
 }
+@media (max-width: 425px){
+     .contact {
+        width: 100%;
+
+    
+
+    .conta {
+      h2 {
+        font-size: 1.3rem;
+        text-align: center;
+      }
+      .button4 {
+        width: 90px;
+        font-size: 0.9rem;
+      }
+    }
+
+    .les-informations {
+        width: 100%;
+      flex-direction: column;
+      padding-inline: 10px;
+      gap: 20px;
+
+      .small-part {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+      }
+
+      .big-part {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+
+        input {
+          @include mysize(100%, 6vh);
+        }
+
+        textarea {
+          width: 100%;
+        }
+
+        .name-email {
+          flex-direction: column;
+          gap: 10px;
+        }
+      }
+    }
+
+    button {
+      width: 100%;
+      max-width: 190px;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+

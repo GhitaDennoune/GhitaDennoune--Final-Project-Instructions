@@ -17,7 +17,7 @@
 
                 @include mysize(100%, 12vh);
     background-color: rgba(60, 59, 59, 0.199) ;
-   @include mydisplay(flex, none, none, center, 80vh);
+   @include mydisplay(flex, none, none, center, 40vh);
    padding-inline: 80px;
    .links{
      @include mydisplay(flex, none, none, center, 30px);
@@ -48,4 +48,78 @@
    
 }
 
+.bi, #menu-chek {
+    display: none;
+}
+
+// @media (max-width: 425px) {
+// .Navebar{
+//     display: none;
+// }
+
+// }
+@media (max-width: 425px) {
+  .Navebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 15px 20px;
+
+    h1 {
+      font-size: 28px;   
+    }
+    .bi, #menu-chek {
+    display: block;
+}
+
+.menu-close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 26px;
+        color: white;
+        cursor: pointer;
+      }
+
+    
+    .links {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      height: 100vh;
+      width: 60%;
+      background-color: rgba(0,0,0,0.9);
+      display: flex;
+      flex-direction: column;
+      padding-top: 80px;
+      gap: 25px;
+      transition: 0.4s ease-in-out;
+
+      a {
+        color: white;
+        font-size: 18px;
+        padding: 10px 20px;
+      }
+    }
+
+
+    .menu-icon {
+      display: block;
+      font-size: 35px;
+      cursor: pointer;
+      color: white;
+    }
+
+    
+    #menu-chek {
+      display: none;
+    }
+
+    
+    #menu-chek:checked ~ .links {
+      right: 0;
+    }
+  }
+}
 

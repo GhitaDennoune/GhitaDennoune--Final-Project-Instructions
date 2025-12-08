@@ -177,3 +177,59 @@
 
 
 }
+@media (max-width: 425px){
+    
+.Why-us {
+    @include mysize(100%, auto);
+    gap: 20px;
+    padding: 20px 10px;
+    text-align: center;
+  
+
+    h2 {
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+    button {
+      padding: 6px 12px;
+      font-size: 12px;
+      border-radius: 15px;
+    }
+     .why-cards {
+      flex-direction: column;
+      gap: 15px;
+      width: 100%;
+    }
+
+    .why-cards .card1,
+    .why-cards .card2,
+    .why-cards .card3 {
+      width: 100% !important;
+      @include mysize(100%, auto);
+      padding: 20px 15px;
+      text-align: center;
+    }
+
+    .why-cards h2 {
+      font-size: 20px;
+    }
+
+    .why-cards h3 {
+      font-size: 16px;
+    }
+
+    .why-cards p {
+      font-size: 12px;
+      line-height: 16px;
+    }}
+
+
+
+
+
+
+
+
+
+}

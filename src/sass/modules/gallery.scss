@@ -1,15 +1,16 @@
 @font-face {
-    font-family: "myfont";
-    src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
+  font-family: "myfont";
+  src: url(../../../../public/fonts/Satisfy/Satisfy-Regular.ttf);
 }
 
 @font-face {
-    font-family: "paragraph-font";
-    src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+  font-family: "paragraph-font";
+  src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
 }
+
 @font-face {
-    font-family: "poping-font";
-    src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
+  font-family: "poping-font";
+  src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
 }
 
 
@@ -18,41 +19,90 @@
 
 
 
-.gallery{
-    background-color: beige;
-      @include mydisplay(flex, column, center, center, 20px);
-       @include mysize(100%, 90vh);
-       button{
-          padding: 5px;
-        
-          width: 100px;
+.gallery {
+  background-color: beige;
+  @include mydisplay(flex, column, center, center, 20px);
+  @include mysize(100%, 90vh);
 
-        background-color: rgba(255, 166, 0, 0.616);
-        border-radius: 20px;
-        color: orange;
-        
-        
-       }
-       h2{
-        font-family: "Satisfy", cursive;
-        span{
-            color: $orange;
-        }
-       }
-       img{
-         @include mysize(350px, 250px);
-       }
-       .images .top{
-          @include mydisplay(flex, none, center, center, 6px);
-       }
-        .images .buttom{
-         @include mydisplay(flex, none, center, center, 8px);
-       }
-       .images{
-         @include mydisplay(flex, column, center, center, 7px);
-       }
-       img:hover{
-         transform: scale(1.1);
-       }
+  button {
+    padding: 5px;
+
+    width: 100px;
+
+    background-color: rgba(255, 166, 0, 0.616);
+    border-radius: 20px;
+    color: orange;
+
+
+  }
+
+  h2 {
+    font-family: "Satisfy", cursive;
+
+    span {
+      color: $orange;
+    }
+  }
+
+  img {
+    @include mysize(350px, 250px);
+  }
+
+  .images .top {
+    @include mydisplay(flex, none, center, center, 6px);
+  }
+
+  .images .buttom {
+    @include mydisplay(flex, none, center, center, 8px);
+  }
+
+  .images {
+    @include mydisplay(flex, column, center, center, 7px);
+  }
+
+  img:hover {
+    transform: scale(1.1);
+  }
+
+}
+
+
+@media (max-width: 425px) {
+
+
+  .gallery {
+    padding-top: 220vh;
+    padding-bottom: 220vh;
+
+    img {
+      @include mysize(100%, 320px);
+      margin-bottom: 5px;
+    }
+
+    .images .top,
+    .images .bottom {
+      @include mydisplay(flex, column, center, center, 5px);
+    }
+
+    .images {
+      @include mydisplay(flex, column, center, center, 5px);
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+
+    button {
+      width: 90px;
+      font-size: 0.9rem;
+    }
+  }
+
+
+
+
+
+
 
 }

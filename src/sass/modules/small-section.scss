@@ -7,6 +7,7 @@
     font-family: "paragraph-font";
     src: url(../../../../public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
 }
+
 @font-face {
     font-family: "poping-font";
     src: url(../../../../public/fonts/Poppins/Poppins-Medium.ttf);
@@ -14,7 +15,7 @@
 
 
 .small-sextion {
-    background-color: rgba(60, 59, 59, 0.199) ;
+    background-color: rgba(60, 59, 59, 0.199);
 
     width: 100%;
 
@@ -26,21 +27,30 @@
     .info {
         display: flex;
         gap: 20px;
-        i{
-            color: $orange;
+
+        i {
+            color: $orange !important;
         }
     }
 
     .button1 button {
         padding: 5px;
         border: none;
-        background-color:$orange;
+        background-color: $orange;
         border-radius: 25px;
         color: white;
         font-weight: bold;
     }
 }
-.small-sextion{
+
+.small-sextion {
     position: fixed;
     z-index: 1000;
+}
+
+
+@media (max-width: 425px) {
+   .small-sextion{
+    display: none;
+   }
 }

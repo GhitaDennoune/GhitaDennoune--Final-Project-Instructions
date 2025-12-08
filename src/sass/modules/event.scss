@@ -67,4 +67,62 @@ width: 40%;
 }
 
 
+
 }
+@media (max-width: 425px){
+    .events{
+        height: auto; 
+    background-size: cover;
+    padding: 20px;
+    }
+ 
+
+    .event1 {
+      flex-direction: column;
+      padding-inline: 10px;
+      padding-top: 20px;
+
+      img {
+        width: 100% !important;
+        height: auto !important;
+        max-height: 250px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+      }
+
+      .event-explain {
+        align-items: center;
+        text-align: center;
+
+        h3 {
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .carousel-caption {
+      position: static; 
+      width: 100%;
+      padding: 0;
+
+      h2, h3, p, li {
+        color: white;
+        font-size: 0.9rem;
+      }
+
+      ul {
+        padding-left: 0;
+      }
+
+      li {
+        justify-content: center;
+        font-size: 0.85rem;
+      }
+    }
+  }
+
+
+
+
+
+
